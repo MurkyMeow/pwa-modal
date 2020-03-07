@@ -22,6 +22,9 @@ export const style = css`
     --full-screenshot-background: rgba(0, 0, 0, 0.8);
     --modal-background: #fff;
     --description-color: #5f6368;
+    --photo-size: 65px;
+    --screenshot-width: 102px;
+    --screenshot-height: 180px;
     /* could be replaced with <slot> */
     --action-color: #1a73e8;
   }
@@ -65,8 +68,8 @@ export const style = css`
   }
   .photo {
     flex-shrink: 0;
-    width: 65px;
-    height: 65px;
+    width: var(--photo-size);
+    height: var(--photo-size);
     border-radius: 50%;
     margin-top: 4px;
     margin-right: 28px;
@@ -141,8 +144,8 @@ export const style = css`
     background: none;
   }
   .screenshot-img {
-    width: 102px;
-    height: 180px;
+    width: var(--screenshot-width);
+    height: var(--screenshot-height);
     object-fit: cover;
   }
 
