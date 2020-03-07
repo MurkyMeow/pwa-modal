@@ -16,6 +16,7 @@ export const style = css`
 
   :host {
     font-family: "Roboto", sans-serif;
+    font-size: 14px;
     padding: 0 20px;
     --wrapper-background: rgba(0, 0, 0, 0.5);
     --full-screenshot-background: rgba(0, 0, 0, 0.8);
@@ -47,7 +48,6 @@ export const style = css`
   }
 
   .modal {
-    font-size: 14px;
     position: relative;
     width: 100%;
     max-width: 500px;
@@ -72,17 +72,16 @@ export const style = css`
     background: #1a73e8;
   }
   .name {
-    font-size: 24px;
+    font-size: 1.71em;
     margin-bottom: 3px;
   }
   .publisher {
-    font-size: 14px;
     color: var(--description-color);
     margin-bottom: 5px;
   }
 
   .limits {
-    font-size: 12px;
+    font-size: .86em;
     color: var(--description-color);
     display: flex;
     align-items: center;
@@ -99,7 +98,6 @@ export const style = css`
   }
 
   .tags {
-    font-size: 14px;
     display: flex;
     padding-bottom: 7px;
   }
@@ -117,7 +115,6 @@ export const style = css`
   }
 
   .description {
-    font-size: 14px;
     line-height: 19px;
     letter-spacing: -0.03px;
     text-align: center;
@@ -147,9 +144,6 @@ export const style = css`
     height: 180px;
     object-fit: cover;
   }
-  .actions-wrap {
-    font-size: 14px;
-  }
 
   .screenshot-full-wrap {
     background: var(--full-screenshot-background);
@@ -168,7 +162,6 @@ export const style = css`
   }
 
   .actions {
-    font-size: 14px;
     display: flex;
     justify-content: space-between;
     max-width: 130px;
