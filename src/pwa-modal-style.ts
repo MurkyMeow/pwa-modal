@@ -60,6 +60,7 @@ export const style = css`
 
   .summary {
     display: flex;
+    align-items: center;
     margin-bottom: 15px;
   }
   .photo {
